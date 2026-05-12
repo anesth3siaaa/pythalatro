@@ -1,3 +1,7 @@
+# TODO: keep calc logic in main.py and move lists to new .py files
+# TODO: figure out GUI (tkinter)
+# TODO: cry myself to sleep because i chose this career path
+
 hands = [
     {"name": "High Card", "chips": 5, "mult": 1, "level": 1},
     {"name": "Pair", "chips": 10, "mult": 2, "level": 1},
@@ -90,14 +94,14 @@ while True:
         print("Level must be a number.")
         continue
 
-
+# TODO: figure out how to add seals, enhancements, editions
 while True:
     cardExists = True
     findCards = input("Cards to play (use \"list\" for list): ").casefold().split()
     if len(findCards) != handCardCount[handPlay["name"]]:
         print(findCards, "/", handCardCount[handPlay["name"]], " cards, type in more cards.")
         continue
-
+# TODO: joker logic
     
     finalCards = 0
     for entry in findCards:
