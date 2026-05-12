@@ -1,7 +1,7 @@
 # TODO: keep calc logic in main.py and move lists to new .py files
 # TODO: figure out GUI (tkinter)
 # TODO: cry myself to sleep because i chose this career path
-
+# TODO: rework calc logic to suit GUI instead of term
 hands = [
     {"name": "High Card", "chips": 5, "mult": 1, "level": 1},
     {"name": "Pair", "chips": 10, "mult": 2, "level": 1},
