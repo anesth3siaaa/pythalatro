@@ -1,0 +1,14 @@
+Rework todos:
+
+Hand logic | Hand must now be determined by comparing each selected card (up to 5).
+Early example: for each card in hand, check for that card in the cardlist and for how many of said card there are in the user's hand (could save to a variable?), and if certain conditions are met choose the appropriate hand.
+
+Card logic | Apply card enhancements (seals, editions, upgrades).
+
+Jokers | Implement joker sprite for every joker in the game, implement joker logic for every joker that SCORES or AIDS (no not that aids) SCORING.
+
+Jokers | Implement hands and discards, and boolean for specific jokers.
+Some jokers (e.g. Mystic Summit, +15 mult when 0 discards remain) have conditions based on hands or discards. Implementing how many hands will aid in better calculation.
+Some jokers (e.g. Loyalty Card, X4 mult every 6 hands played) base their conditions on true or false booleans. Instead of forcing players to input the amount of hands they played, these jokers can just be booleans.
+
+To update in future iterations.

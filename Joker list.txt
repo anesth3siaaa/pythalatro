@@ -1,0 +1,120 @@
+Joker list:
+
+Joker | +4 mult, always.
+Sin jokers | +3 mult when suit matches, one iteration for each suit (for loop)
+Personality jokers | +Z mult/chips when condition is met (if statements).
+Half joker | Boolean, always set to false when selected cards > 3.
+Joker stencil | acts the same (players must insert all their jokers for an accurate calculation).
+Four Fingers | when active set boolean to true, flushes and straights now require 1 less card.
+Shortcut | i'll let claude do this one fuck off
+Mime | oh god.
+Credit Card | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Ceremonial Dagger | allow user to input mult.
+Banner, Mystic Summit | discards and hands start at 3/4 respectively, let user set number to lower/higher.
+Marble joker | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Loyalty Card | boolean
+8 Ball | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Misprint | Calculate lowest (+0 mult) and highest (+23 mult) result, show both.
+Dusk | boolean
+Raised fist | allow user to input lowest ranked card
+Chaos the Clown | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Fibonacci | check for every iteration of Ace, 2, 3, 5, 8; adds +8 mult when it finds one.
+Steel Joker | allow user to input amount of steel (a kilogramme of steel is heavier than a kilogramme of feathers)
+Scary Face | for every face card (could be a property of cards?), +30 chips when every face card in play is found.
+Abstract Joker | Works exactly as the opposite of stencil
+Delayed gratification | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Hack | For 2, 3, 4, 5 in hand, just repeat the steps for that card and move to the next card.
+Pareidolia | boolean, when set to true every card's boolean property for face card is set to true
+Gros Michel | acts the same without the destroying part
+Even Steven & Odd Todd & Scholar | same calculation as other jokers that check for cards
+Business Card | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Supernova | i hate you (let user input)
+Ride the Bus | stop (let user input)
+Space joker | display output without and with the 1/4 chance.
+Egg | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Burglar | acts only as boost for jokers that count joker slots (Stencil, Abstract) since you can set hands yourself
+Blackboard | boolean
+Runner | check if hand is a straight, if it is +15 chips to the current hand
+Ice Cream | user input
+DNA | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Splash | Count every card
+Blue joker | user input
+Sixth Sense | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Constellation | User input
+Hiker | when selected, let user add 5 to the card chips by hovering on the card
+Faceless joker | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Green joker | user input
+Superposition | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+To Do List | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Cavendish | Same logic as its older brother
+Card Sharp | boolean
+Red Card | user input
+Madness | user input
+Square joker | user input + 4
+Séance | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Riff-Raff | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Vampire | This one's hard cus you need to account for other jokers that may modify cards which is why im doing it for last
+Hologram | user input
+Vagabond | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Baron, Cloud 9, Rocket, Ob*lisk | user input
+Midas Mask | doesn't let you select other cards that are not gold, turns all cards into gold
+Luchador | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Photograph | Checks for face card, once first facecard found, set prop boolean to false and don't reactivate it. 2X.
+Gift Card | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Turtle Bean, Reserved Parking, Mail-in Rebate, To the Moon, Halucination, Juggler | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Erosion | user input
+Fortune teller | user input
+Drunkard | +1 to the discards
+Stone Joker | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Golden Joker | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Lucky Cat | user input, refer to Misprint for total score calculation
+Baseball card | For every joker tagged common x1.5
+Bull | THIS ADDS A WHOLE NEW COMPLEXITY LAYER NO
+Diet Cola | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Trading Card | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Flash Card | user input
+Popcorn | user input
+Spare Trousers | user input
+Ancient joker | User input (suit)
+Ramen | fine tune with buttons, or user input
+Walkie Talkie | checks for 10s and 4s.
+Seltzer | just redoes the calculation
+Castle | user input
+Smiley Face | same calculation of photograph (without prop bool)
+Campfire | USER INPUT
+Golden ticket | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Mr Bones | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Acrobat | reader (boolean)
+Sock and Buskin | same calculation of smiley face (except it just redoes the action once)
+Swashbuckler | user input
+Troubadour | subtracts 1
+Certificate | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Smeared joker | same thing as game
+Throwback | user input
+Hanging Chad | redo first card calculation scoring 2 times
+Rough Gem | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Arrowhead and Onyx Agate | Same thing as game
+Bloodstone | display scores for no hits and all hits
+Showman | literally fucking useless
+Flower Pot | same thing as game
+Blueprint, Brainstorm | same thing as game
+Wee joker | user input
+Merry Andy | +3 to discards
+Oops! All 6s | Doubles probabilities. When probabilities are sure to happen, the lowest displayed score updates
+The Idol | same as game
+Seeing double | checks for condition if condition is met x2 mult
+Matador | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Hit the Road | User input
+The flash cards | same as seeing double (varies between joker
+Stuntman | 250 chips to total score
+Invisible joker | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Satellite | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Shoot the Moon | same as game
+Driver's License | boolean
+Cartomancer, Astronomer, Burnt joker | acts only as boost for jokers that count joker slots (Stencil, Abstract)
+Bootstrap | user input (dollars, ties to other dollar jokers)
+Canio | User input
+Triboulet | Same as Smiley Face but 2x
+Yorick | user input
+Chicot | if present, does not let you pick out a boss blind.
+Perkeo | yo, rick acts only as boost for jokers that count joker slots (Stencil, Abstract)
